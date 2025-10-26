@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   // Set base path for GitHub Pages deployment
-  base: process.env.NODE_ENV === "production" ? "/Otee/" : "/",
+  base: "/",
   define: {
     // Define globals for Phaser CE
     global: "globalThis",
